@@ -13,7 +13,7 @@ public class Main {
         int digit3 = number / 10 % 10;
         int digit4 = number % 10;
         if (digit1 + digit2 == digit3 + digit4) {
-            System.out.println("Lucky ticket");
+            System.out.println("Lucky ticket :)");
         } else {
             System.out.println("Ticket is not lucky");
         }
