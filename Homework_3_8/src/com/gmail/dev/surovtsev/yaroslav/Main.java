@@ -15,7 +15,7 @@ public class Main {
         int digit5 = number / 10 % 10;
         int digit6 = number % 10;
         if (digit1 == digit6 && digit2 == digit5 && digit3 == digit4) {
-            System.out.println("The number is a palindrome");
+            System.out.println("The number is a palindrome :)");
         } else {
             System.out.println("The number is not a palindrome");
         }
