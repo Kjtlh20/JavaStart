@@ -59,7 +59,7 @@ public class Main {
             }
             text = text + a[index] + " ";
         }
-        if (number1 != 0 && (number10 * 10 + number1 > 20)) {
+        if (number1 != 0 && (number10 * 10 + number1 > 20 || number10 * 10 + number1 < 10)) {
             index = getArrayIndex(b, number1);
             text = text + a[index] + " ";
         }
